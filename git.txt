@@ -1,0 +1,10 @@
+git 常用指令
+
+ls 查看当前目录
+cd 跳转到
+git status 查看仓库状态
+git reset -- 【文件名】  撤销缓存区文件
+git rm -- cached 【文件名】 撤销缓存区文件
+git diff  查看工作区被跟踪文件的修改详情 按q退出
+git reset --soft HEAD^ 撤销最近的一次提交，将修改还原到暂存区
+git push -f 时间线错乱 强制推送本地版本库
